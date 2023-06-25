@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #f5eaea;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.box {
+    background-color: rgb(98, 95, 95);
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.box table {
+    border: 1px solid black;
+    display: flex;
+    margin: 49px 80px 57px 79px;
+    justify-content: center;
+    padding: 20px 50px;
+}
+
+.box table tr td {
+    margin: 0px 50px 0px 0px;
+}
